@@ -1,0 +1,19 @@
+.header, .content{
+    /* background: #6c6868d9 !important; */
+    color: whitesmoke;
+  }
+  .searchcateg input{
+    height: 60px;
+    border: 2px solid gray;
+    outline: none;
+  
+  }
+  .searchcateg input::placeholder{
+    font-size: 18px;
+  }
+  .input:focus{
+    outline: none;
+    border: none;
+  }
+
+  

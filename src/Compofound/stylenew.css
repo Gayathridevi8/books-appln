@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* :root{
+    --primary-color:#755139FF;
+    --secondary-color:#D4B996FF;
+} */
+body{
+    background-color: var(--primary-color);
+  
+}
+/* html{
+    font-size: 75.5%;
+} */
+.headerfov{
+    width: 100%;
+    height: 500px;
+    color: var(--secondary-color);
+    /* box-shadow: 0 5px 10px var(--secondary-color); */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.headerfov::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    clip-path: circle(60% at left 300px);
+    z-index: -1;
+}
+.row2fov{
+    position: absolute;
+    top:10px;
+    right: 150px;
+    text-align: center;
+}
+.row2fov h2{
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.row2fov img{
+    margin-top: 30px;
+    width: 250px;
+}
+.row1fov h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 35px;
+    font-family: 'Bodoni Moda', serif;
+}
+.searchfov{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchfov input{
+    outline: 0;
+    border: 0;
+    width: 350px;
+    height: 35px;
+    padding: 0 0.5rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+.searchfov button{
+    outline: none;
+    border: none;
+    height: 35px;
+    padding: 0 0.5rem;
+}
+.containerfavo{
+    width: 65%;
+   
+    margin: 0 auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap:20px;
+    box-sizing: border-box;
+}
+.cardfov{
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    /* margin-bottom: 100px; */
+   
+    transition: .5s;
+    text-align: center;
+    position: relative;
+    width: 200px;
+    height: 260px;
+  
+}
+/* .card:hover{
+    transform: scale(0.9);
+    background-color: rgba(255,255,255,0.8);
+} */
+.cardfov img{
+    width: 100%;
+    height: 210px;
+    
+    /* border-radius: 1rem 1rem 0 0; */
+}
+.cardfov .bottom{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+.cardfov .bottomfov .titlefov{
+    font-size: 14px;
+    margin-bottom: 32px;
+    margin-top: 18px;
+}
+.card .bottom .amount{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+/* .wholecards{
+    border: 3px solid black;
+    padding: auto;
+    margin: auto;
+} */
+.wholecardsfov{
+    /* border: 5px solid rgb(255, 255, 255); */
+    border: 5px solid rgba(0, 0, 0, 0.316);
+    margin: auto;
+    height: 320px;
+   text-align: center;
+   display: grid;
+   margin-bottom: 50px;
+   color: white;
+   background-color: grey;
+   /* width: 200px; */
+
+
+}
+.wholecardsfov:hover{
+    background-color: rgb(41, 4, 77);
+    
+}
+
+.wholecardsfov button{
+    width: 200px;
+    height: 24px;
+    background-color: whitesmoke;
+    
+    border: none;
+  
+
+}
+.overlayfov{
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay-innerfov{
+    background: white;
+    width: 700px;
+    height: 700px;
+    padding: 1.5rem;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 1.3rem;
+}
+.overlay-innerfov .closefov{
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+}
+.overlay-innerfov .inner-boxfov{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay-innerfov .inner-boxfov img{
+    margin-right: 20px;
+    width: 150px;
+    height: 240px;
+}
+.overlay-innerfov .inner-boxfov h3{
+    margin-top: 10px;
+    color: green;
+}
+.overlay-innerfov .inner-boxfov h4{
+    color: blue;
+}
+.overlay-innerfov .inner-boxfov button{
+    outline: none;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(153, 41, 110);
+    color: white;
+    font-weight: bold;
+    padding: 0.3rem 0.5rem;
+    font-size: 15px;
+}
+.overlay-innerfov .descriptionfov{
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 14px;
+}
+.infofov button{
+  height: 35px; 
+   
+}
+.infofov a{
+    text-align: center;
+   
+}
+.overlay-innerfov{
+    background-color: cadetblue;
+}
+

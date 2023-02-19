@@ -1,0 +1,38 @@
+.register-block{
+    float:left;
+    width:100%;
+    padding : 80px 0;
+}
+
+.container{background-color: #D3D3D3; border-radius: 10px; width: 40%; height: 60%;}
+.register-sec{padding: 50px 30px; position:relative;}
+.register-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: white;}
+.register-sec h2:after{content:" "; width:100px; height:5px; background:rgb(4, 20, 54); display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.btn-login{background: #0069c0; color:#fff; font-weight:600;}
+/* #D3D3D3 */
+#bgregfire{
+   /* background-image: linear-gradient(to right, #3f97a3) */
+   background-image: linear-gradient(to bottom right, #349ba9, rgb(4, 32, 39) );
+   
+}
+
+#btnfire{
+    background-color: rgb(4, 20, 54);
+    margin-top: 20px;
+}
+
+.linklogfire{
+    color: white;
+    text-decoration: none;
+}
+.linklogfire:hover{
+    color: white;
+}
+
+.fullbgfire{
+    background-color: rgb(12, 33, 42);  
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

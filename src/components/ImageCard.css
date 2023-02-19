@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cardforcategory{
+    /* background: #6c6868d9 !important; */
+  color: purple;
+  
+ font-weight: 600;
+  border: 4px solid darkgrey;
+  background-color: rgb(240, 182, 192);
+  height: max-content;
+  
+  margin-bottom: 25px;
+  margin-right: 15px;
+}
+.cardforcategory:hover{
+    background-color: white;
+    transform: scale(0.9);
+    /* background-color: rgba(255,255,255,0.8); */
+}
+/* .card:hover{
+    transform: scale(0.9);
+    background-color: rgba(255,255,255,0.8);
+} */
+.card-bodycateg{
+    margin: 20px;
+}
+.cardcategh4{
+    font-weight: bold;
+}
+.cardcategh5{
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+
+
+.readbook{
+    /* color: pink; */
+    
+    text-decoration: none;
+    color: purple;
+    
+    
+}
+.readbook:hover{
+    font-size: 20px;
+    color: purple;
+}
+.authors{
+    color: Black;
+}
