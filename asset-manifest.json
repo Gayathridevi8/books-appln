@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/books-appln/static/css/main.55e0c17f.css",
+    "main.js": "/books-appln/static/js/main.fca9604f.js",
+    "static/js/787.b7949ea4.chunk.js": "/books-appln/static/js/787.b7949ea4.chunk.js",
+    "static/media/readd.png": "/books-appln/static/media/readd.1398b2c2a3be3b5c2b52.png",
+    "static/media/bg1.jpg": "/books-appln/static/media/bg1.367d3b094275848a081f.jpg",
+    "index.html": "/books-appln/index.html",
+    "main.55e0c17f.css.map": "/books-appln/static/css/main.55e0c17f.css.map",
+    "main.fca9604f.js.map": "/books-appln/static/js/main.fca9604f.js.map",
+    "787.b7949ea4.chunk.js.map": "/books-appln/static/js/787.b7949ea4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55e0c17f.css",
+    "static/js/main.fca9604f.js"
+  ]
+}
